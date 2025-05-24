@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Conversor de automatas ND a D</title>
+</head>
+<body>
+    <div class="main flex">
+        <h1>Conversor de <br>AND a AFD</h1>
+        <div class="main_container flex">
+            <div class="left flex">
+                <div class="archivoContainer flex">
+                    <!--<input type="file">-->
+                    <label for="file-upload" class="file-label">Seleccionar archivo</label>
+                    <pre id="contenidoArchivo"></pre>
+                    <input type="file" id="file-upload" class="file-input">
+                </div>
+                
+                <div class="palabraContainer flex">
+                        <p id="p">Esperando selección...</p>
+                </div>
+
+                <div class="imgRatonContainer">
+                    <img src="./Adobe Express - file.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./doc.js"></script>
+</body>
+</html>
